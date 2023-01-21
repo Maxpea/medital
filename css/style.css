@@ -189,6 +189,13 @@ a:focus {
   margin: 0 25px;
 }
 
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+.dropdown-menu{
+  margin-top: 0;
+}
+
 /*end header section*/
 /* slider section */
 .slider_section {
@@ -282,6 +289,13 @@ a:focus {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 5rem;
+  margin-bottom: 30px;
+}
+
+.slider_section .detail_box .collection{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 4rem;
   margin-bottom: 30px;
 }
 
@@ -806,7 +820,7 @@ a:focus {
 }
 
 .contact_section .partner_container .box .img-box img {
- width: 100px;
+ width: 120px;
   
 }
 
